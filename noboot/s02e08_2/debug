@@ -1,0 +1,1123 @@
+[1mApache Maven 3.6.0[m
+Maven home: /usr/share/maven
+Java version: 11.0.1, vendor: Azul Systems, Inc., runtime: /opt/java/zulu11.2.3-jdk11.0.1-linux_x64
+Default locale: pl_PL, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-74-generic", arch: "amd64", family: "unix"
+[[1;36mDEBUG[m] Created new class realm maven.api
+[[1;36mDEBUG[m] Importing foreign packages into class realm maven.api
+[[1;36mDEBUG[m]   Imported: javax.annotation.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.annotation.security.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.enterprise.util.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.classrealm < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.cli < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.exception < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution.scope < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.model < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.monitor < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.plugin < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.profiles < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.project < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.reporting < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.rtinfo < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.settings < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.toolchain < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.usability < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.events < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.observers < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.resource < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.component < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.container < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.context < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.logging < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.personality < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.collection < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.deployment < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.graph < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.installation < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.metadata < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.resolution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.spi < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.transfer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.version < plexus.core
+[[1;36mDEBUG[m]   Imported: org.fusesource.jansi.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.helpers.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.spi.* < plexus.core
+[[1;36mDEBUG[m] Populating class realm maven.api
+[[1;34mINFO[m] Error stacktraces are turned on.
+[[1;36mDEBUG[m] Message scheme: color
+[[1;36mDEBUG[m] Message styles: [1;36mdebug[m [1;34minfo[m [1;33mwarning[m [1;31merror[m [1;32msuccess[m [1;31mfailure[m [1mstrong[m [32mmojo[m [36mproject[m
+[[1;36mDEBUG[m] Reading global settings from /usr/share/maven/conf/settings.xml
+[[1;36mDEBUG[m] Reading user settings from /home/merbel/.m2/settings.xml
+[[1;36mDEBUG[m] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[[1;36mDEBUG[m] Reading user toolchains from /home/merbel/.m2/toolchains.xml
+[[1;36mDEBUG[m] Using local repository at /home/merbel/.m2/repository
+[[1;36mDEBUG[m] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/merbel/.m2/repository
+[[1;34mINFO[m] Scanning for projects...
+[[1;36mDEBUG[m] Extension realms for project io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 58, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;36mDEBUG[m] === REACTOR BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project: io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [clean, install]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mio.github.javafaktura:s02e08_2[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding s02e08_2 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] === PROJECT BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project:       io.github.javafaktura:s02e08_2:1.0-SNAPSHOT
+[[1;36mDEBUG[m] Dependencies (collect): []
+[[1;36mDEBUG[m] Dependencies (resolve): [compile, runtime, test]
+[[1;36mDEBUG[m] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (compile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (testCompile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[[1;36mDEBUG[m] =======================================================================
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=932783, ConflictMarker.markTime=247493, ConflictMarker.nodeCount=34, ConflictIdSorter.graphTime=443265, ConflictIdSorter.topsortTime=343547, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3507335, ConflictResolver.conflictItemCount=33, DefaultDependencyCollector.collectTime=55941523, DefaultDependencyCollector.transformTime=7558137}
+[[1;36mDEBUG[m] io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m]    org.springframework:spring-context:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]       org.springframework:spring-aop:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]       org.springframework:spring-beans:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]       org.springframework:spring-core:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]          org.springframework:spring-jcl:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]       org.springframework:spring-expression:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]    org.springframework:spring-jdbc:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]       org.springframework:spring-tx:jar:5.1.0.RELEASE:compile
+[[1;36mDEBUG[m]    javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[[1;36mDEBUG[m]    ch.qos.logback:logback-classic:jar:1.2.3:compile
+[[1;36mDEBUG[m]       ch.qos.logback:logback-core:jar:1.2.3:compile
+[[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.25:compile
+[[1;36mDEBUG[m]    org.junit.jupiter:junit-jupiter-engine:jar:5.3.2:test
+[[1;36mDEBUG[m]       org.apiguardian:apiguardian-api:jar:1.0.0:test
+[[1;36mDEBUG[m]       org.junit.platform:junit-platform-engine:jar:1.3.2:test
+[[1;36mDEBUG[m]          org.junit.platform:junit-platform-commons:jar:1.3.2:test
+[[1;36mDEBUG[m]          org.opentest4j:opentest4j:jar:1.1.1:test
+[[1;36mDEBUG[m]       org.junit.jupiter:junit-jupiter-api:jar:5.3.2:test
+[[1;36mDEBUG[m]    org.springframework:spring-test:jar:5.1.0.RELEASE:test
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=18175, ConflictMarker.markTime=60890, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=7547, ConflictIdSorter.topsortTime=8293, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=131979, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=11141344, DefaultDependencyCollector.transformTime=279460}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[[1;36mDEBUG[m]   (f) directory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) excludeDefaultDirectories = false
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) followSymLinks = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (f) reportDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/site
+[[1;36mDEBUG[m]   (f) retryOnError = true
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) testOutputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m] -- end configuration --
+[[1;34mINFO[m] Deleting /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-archiver/pom.properties
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-archiver
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/compile/createdFiles.lst
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/compile
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile/default-compile
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/compile
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/testCompile/testCompile/inputFiles.lst
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/testCompile/testCompile
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin/testCompile
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status/maven-compiler-plugin
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/maven-status
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/beans.xml
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/io/github/javafaktura/App.class
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/io/github/javafaktura
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/io/github
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/io
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources/annotations
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources
+[[1;34mINFO[m] Deleting file /home/merbel/Sources/s02e08/noboot/s02e08_2/target/s02e08_2-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Deleting directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m] Skipping non-existing directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m] Skipping non-existing directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m] Skipping non-existing directory /home/merbel/Sources/s02e08/noboot/s02e08_2/target/site
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=236288, ConflictMarker.markTime=144766, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=118277, ConflictIdSorter.topsortTime=25016, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1366100, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=96707457, DefaultDependencyCollector.transformTime=1912804}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[[1;36mDEBUG[m]       commons-cli:commons-cli:jar:1.0:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[[1;36mDEBUG[m]       classworlds:classworlds:jar:1.1:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-model:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]       junit:junit:jar:3.8.1:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[[1;36mDEBUG[m]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[[1;36mDEBUG[m]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[[1;36mDEBUG[m]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[[1;36mDEBUG[m]   Included: commons-cli:commons-cli:jar:1.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[[1;36mDEBUG[m]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[[1;36mDEBUG[m]   (f) buildFilters = []
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
+[[1;36mDEBUG[m]   (s) includeEmptyDirs = false
+[[1;36mDEBUG[m]   (s) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (s) overwrite = false
+[[1;36mDEBUG[m]   (f) project = MavenProject: io.github.javafaktura:s02e08_2:1.0-SNAPSHOT @ /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml
+[[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
+[[1;36mDEBUG[m]   (f) useBuildFilters = true
+[[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] properties used {env.TERM=xterm-256color, java.specification.version=11, sun.cpu.isalist=, sun.arch.data.model=64, java.vendor.url=http://www.azulsystems.com/, env.TEXTDOMAIN=im-config, sun.boot.library.path=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, jdk.debug=release, env.SSH_AGENT_PID=12297, maven.version=3.6.0, java.specification.vendor=Oracle Corporation, java.version.date=2018-10-16, java.home=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.NVM_BIN=/home/merbel/.nvm/versions/node/v8.11.1/bin, env.GJS_DEBUG_OUTPUT=stderr, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.1+13-LTS, env.PATH=/home/merbel/bin:/home/merbel/.local/bin:/home/merbel/.nvm/versions/node/v8.11.1/bin:/home/merbel/Sources/toyota/swm/SmaMisc/DevUtils/Scripts/swm-ctl/bin:/usr/lib/oracle/11.2/client64/bin:/opt/Python-2.7.8:/opt/apache-ant-1.9.2/bin:/opt/java/zulu11.2.3-jdk11.0.1-linux_x64/bin:/home/merbel/bin:/home/merbel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/Symantec/symantec_antivirus:/snap/bin, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT=seat0, env.CLUTTER_IM_MODULE=xim, file.encoding=UTF-8, java.vendor.version=Zulu11.2+3, env._=/usr/bin/mvn, env.XDG_SESSION_DESKTOP=ubuntu, env.SHLVL=1, java.io.tmpdir=/tmp, java.version=11.0.1, env.GUAKE_TAB_UUID=2e217bd5-2c56-42b2-b85a-1b5b7a63163b, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, env.UNITY_LOW_GFX_MODE=1, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, env.WINDOWPATH=2, java.vendor=Azul Systems, Inc., env.IM_CONFIG_PHASE=2, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, env.XAUTHORITY=/run/user/1000/gdm/Xauthority, sun.desktop=gnome, env.SESSION_MANAGER=local/merbel-ThinkPad-T580:@/tmp/.ICE-unix/12209,unix/merbel-ThinkPad-T580:/tmp/.ICE-unix/12209, env.LANG=pl_PL.UTF-8, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop, user.timezone=, os.name=Linux, java.vm.specification.version=11, junit.version=5.3.2, env.DISPLAY=:0, maven.compiler.source=11, user.home=/home/merbel, env.COLORTERM=truecolor, env.GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.ANT_HOME=/opt/apache-ant-1.9.2, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, path.separator=:, os.version=4.15.0-74-generic, env.GIO_LAUNCHED_DESKTOP_FILE_PID=12867, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=/bin/bash, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.GTK_MODULES=gail:atk-bridge, env.VTE_VERSION=5202, env.USERNAME=merbel, os.arch=amd64, maven.multiModuleProjectDirectory=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.DESKTOP_SESSION=ubuntu, env.MAVEN_PROJECTBASEDIR=/home/merbel/Sources/s02e08/noboot/s02e08_2, java.vm.info=mixed mode, env.USER=merbel, java.class.version=55.0, awt.toolkit=sun.awt.X11.XToolkit, sun.jnu.encoding=UTF-8, env.TEXTDOMAINDIR=/usr/share/locale/, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, maven.build.version=Apache Maven 3.6.0, maven.home=/usr/share/maven, env.GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/guake.desktop, env.JAVA_HOME=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64, env.GDMSESSION=ubuntu, file.separator=/, java.vm.compressedOopsMode=Zero based, spark.version=2.8.0, env.GTK2_MODULES=overlay-scrollbar, line.separator=
+, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, user.name=merbel, env.LOGNAME=merbel, env.XDG_VTNR=2, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.XDG_RUNTIME_DIR=/run/user/1000, env.XMODIFIERS=@im=ibus, sun.os.patch.level=unknown, maven.compiler.target=11, env.ORACLE_HOME=/usr/lib/oracle/11.2/client64, env.XDG_SESSION_TYPE=x11, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.PWD=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/home/merbel, env.QT_IM_MODULE=ibus, java.vm.vendor=Azul Systems, Inc., maven.conf=/usr/share/maven/conf, logback.version=1.2.3, sun.java.launcher=SUN_STANDARD, user.country=PL, env.QT_ACCESSIBILITY=1, sun.cpu.endian=little, user.language=pl, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.NVM_DIR=/home/merbel/.nvm, env.GTK_IM_MODULE=ibus, env.XDG_MENU_PREFIX=gnome-, java.runtime.name=OpenJDK Runtime Environment, env.XDG_SESSION_ID=2, project.build.sourceEncoding=UTF-8, env.NVM_CD_FLAGS=, env.MAVEN_CMD_LINE_ARGS= clean install -X, java.vendor.url.bug=http://www.azulsystems.com/support/, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, user.dir=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.QT4_IM_MODULE=xim, env.XDG_CURRENT_DESKTOP=ubuntu:GNOME, java.vm.version=11.0.1+13-LTS, springframework.version=5.1.0.RELEASE, env.GNOME_SHELL_SESSION_MODE=ubuntu}
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;36mDEBUG[m] resource with targetPath null
+directory /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/resources
+excludes []
+includes []
+[[1;36mDEBUG[m] ignoreDelta true
+[[1;34mINFO[m] Copying 1 resource
+[[1;36mDEBUG[m] file beans.xml has a filtered file extension
+[[1;36mDEBUG[m] copy /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/resources/beans.xml to /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/beans.xml
+[[1;36mDEBUG[m] no use filter components
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=516957, ConflictMarker.markTime=254842, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=184219, ConflictIdSorter.topsortTime=54984, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1891425, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=186169190, DefaultDependencyCollector.transformTime=2924799}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-model:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-project:jar:2.0.9:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[[1;36mDEBUG[m]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[[1;36mDEBUG[m]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[[1;36mDEBUG[m]          log4j:log4j:jar:1.2.12:compile
+[[1;36mDEBUG[m]          commons-logging:commons-logging-api:jar:1.1:compile
+[[1;36mDEBUG[m]       com.google.collections:google-collections:jar:1.0:compile
+[[1;36mDEBUG[m]       junit:junit:jar:3.8.2:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[[1;36mDEBUG[m]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[[1;36mDEBUG[m]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[[1;36mDEBUG[m]   Included: log4j:log4j:jar:1.2.12
+[[1;36mDEBUG[m]   Included: commons-logging:commons-logging-api:jar:1.1
+[[1;36mDEBUG[m]   Included: com.google.collections:google-collections:jar:1.0
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.2
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) classpathElements = [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes, /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar]
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedSourcesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources/annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (f) projectArtifact = io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = false
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 11
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (f) target = 11
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Source directories: [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java]
+[[1;36mDEBUG[m] Classpath: [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+ /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+ /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar]
+[[1;36mDEBUG[m] Output directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;36mDEBUG[m] Stale source detected: /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java/io/github/javafaktura/App.java
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;36mDEBUG[m] Classpath:
+[[1;36mDEBUG[m]  /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[[1;36mDEBUG[m] Source roots:
+[[1;36mDEBUG[m]  /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java
+[[1;36mDEBUG[m] Command line options:
+[[1;36mDEBUG[m] -d /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes -classpath /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes:/home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar: -sourcepath /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java: -s /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources/annotations -g -nowarn -target 11 -source 11 -encoding UTF-8
+[[1;36mDEBUG[m] incrementalBuildHelper#beforeRebuildExecution
+[[1;34mINFO[m] Compiling 1 source file to /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m] incrementalBuildHelper#afterRebuildExecution
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(compile)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) classpathElements = [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes, /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar]
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedSourcesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources/annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: compile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (f) projectArtifact = io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = false
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 11
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (f) target = 11
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Source directories: [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java]
+[[1;36mDEBUG[m] Classpath: [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+ /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+ /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar]
+[[1;36mDEBUG[m] Output directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;36mDEBUG[m] Classpath:
+[[1;36mDEBUG[m]  /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+[[1;36mDEBUG[m]  /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+[[1;36mDEBUG[m] Source roots:
+[[1;36mDEBUG[m]  /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java
+[[1;36mDEBUG[m] Command line options:
+[[1;36mDEBUG[m] -d /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes -classpath /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes:/home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar:/home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar: -sourcepath /home/merbel/Sources/s02e08/noboot/s02e08_2/src/main/java: -s /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-sources/annotations -g -nowarn -target 11 -source 11 -encoding UTF-8
+[[1;36mDEBUG[m] incrementalBuildHelper#beforeRebuildExecution
+[[1;34mINFO[m] Compiling 1 source file to /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m] incrementalBuildHelper#afterRebuildExecution
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[[1;36mDEBUG[m]   (f) buildFilters = []
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
+[[1;36mDEBUG[m]   (s) includeEmptyDirs = false
+[[1;36mDEBUG[m]   (s) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m]   (s) overwrite = false
+[[1;36mDEBUG[m]   (f) project = MavenProject: io.github.javafaktura:s02e08_2:1.0-SNAPSHOT @ /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml
+[[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
+[[1;36mDEBUG[m]   (f) useBuildFilters = true
+[[1;36mDEBUG[m]   (s) useDefaultDelimiters = true
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] properties used {env.TERM=xterm-256color, java.specification.version=11, sun.cpu.isalist=, sun.arch.data.model=64, java.vendor.url=http://www.azulsystems.com/, env.TEXTDOMAIN=im-config, sun.boot.library.path=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, jdk.debug=release, env.SSH_AGENT_PID=12297, maven.version=3.6.0, java.specification.vendor=Oracle Corporation, java.version.date=2018-10-16, java.home=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.NVM_BIN=/home/merbel/.nvm/versions/node/v8.11.1/bin, env.GJS_DEBUG_OUTPUT=stderr, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.1+13-LTS, env.PATH=/home/merbel/bin:/home/merbel/.local/bin:/home/merbel/.nvm/versions/node/v8.11.1/bin:/home/merbel/Sources/toyota/swm/SmaMisc/DevUtils/Scripts/swm-ctl/bin:/usr/lib/oracle/11.2/client64/bin:/opt/Python-2.7.8:/opt/apache-ant-1.9.2/bin:/opt/java/zulu11.2.3-jdk11.0.1-linux_x64/bin:/home/merbel/bin:/home/merbel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/Symantec/symantec_antivirus:/snap/bin, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT=seat0, env.CLUTTER_IM_MODULE=xim, file.encoding=UTF-8, java.vendor.version=Zulu11.2+3, env._=/usr/bin/mvn, env.XDG_SESSION_DESKTOP=ubuntu, env.SHLVL=1, java.io.tmpdir=/tmp, java.version=11.0.1, env.GUAKE_TAB_UUID=2e217bd5-2c56-42b2-b85a-1b5b7a63163b, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, env.UNITY_LOW_GFX_MODE=1, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, env.WINDOWPATH=2, java.vendor=Azul Systems, Inc., env.IM_CONFIG_PHASE=2, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, env.XAUTHORITY=/run/user/1000/gdm/Xauthority, sun.desktop=gnome, env.SESSION_MANAGER=local/merbel-ThinkPad-T580:@/tmp/.ICE-unix/12209,unix/merbel-ThinkPad-T580:/tmp/.ICE-unix/12209, env.LANG=pl_PL.UTF-8, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop, user.timezone=, os.name=Linux, java.vm.specification.version=11, junit.version=5.3.2, env.DISPLAY=:0, maven.compiler.source=11, user.home=/home/merbel, env.COLORTERM=truecolor, env.GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.ANT_HOME=/opt/apache-ant-1.9.2, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, path.separator=:, os.version=4.15.0-74-generic, env.GIO_LAUNCHED_DESKTOP_FILE_PID=12867, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=/bin/bash, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.GTK_MODULES=gail:atk-bridge, env.VTE_VERSION=5202, env.USERNAME=merbel, os.arch=amd64, maven.multiModuleProjectDirectory=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.DESKTOP_SESSION=ubuntu, env.MAVEN_PROJECTBASEDIR=/home/merbel/Sources/s02e08/noboot/s02e08_2, java.vm.info=mixed mode, env.USER=merbel, java.class.version=55.0, awt.toolkit=sun.awt.X11.XToolkit, sun.jnu.encoding=UTF-8, env.TEXTDOMAINDIR=/usr/share/locale/, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, maven.build.version=Apache Maven 3.6.0, maven.home=/usr/share/maven, env.GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/guake.desktop, env.JAVA_HOME=/opt/java/zulu11.2.3-jdk11.0.1-linux_x64, env.GDMSESSION=ubuntu, file.separator=/, java.vm.compressedOopsMode=Zero based, spark.version=2.8.0, env.GTK2_MODULES=overlay-scrollbar, line.separator=
+, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, user.name=merbel, env.LOGNAME=merbel, env.XDG_VTNR=2, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.XDG_RUNTIME_DIR=/run/user/1000, env.XMODIFIERS=@im=ibus, sun.os.patch.level=unknown, maven.compiler.target=11, env.ORACLE_HOME=/usr/lib/oracle/11.2/client64, env.XDG_SESSION_TYPE=x11, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.PWD=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/home/merbel, env.QT_IM_MODULE=ibus, java.vm.vendor=Azul Systems, Inc., maven.conf=/usr/share/maven/conf, logback.version=1.2.3, sun.java.launcher=SUN_STANDARD, user.country=PL, env.QT_ACCESSIBILITY=1, sun.cpu.endian=little, user.language=pl, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.NVM_DIR=/home/merbel/.nvm, env.GTK_IM_MODULE=ibus, env.XDG_MENU_PREFIX=gnome-, java.runtime.name=OpenJDK Runtime Environment, env.XDG_SESSION_ID=2, project.build.sourceEncoding=UTF-8, env.NVM_CD_FLAGS=, env.MAVEN_CMD_LINE_ARGS= clean install -X, java.vendor.url.bug=http://www.azulsystems.com/support/, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, user.dir=/home/merbel/Sources/s02e08/noboot/s02e08_2, env.QT4_IM_MODULE=xim, env.XDG_CURRENT_DESKTOP=ubuntu:GNOME, java.vm.version=11.0.1+13-LTS, springframework.version=5.1.0.RELEASE, env.GNOME_SHELL_SESSION_MODE=ubuntu}
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;36mDEBUG[m] resource with targetPath null
+directory /home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/resources
+excludes []
+includes []
+[[1;34mINFO[m] skip non existing resourceDirectory /home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/resources
+[[1;36mDEBUG[m] no use filter components
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) classpathElements = [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes, /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes, /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar, /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar, /home/merbel/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar, /home/merbel/.m2/repository/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar, /home/merbel/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar, /home/merbel/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar, /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar, /home/merbel/.m2/repository/org/springframework/spring-test/5.1.0.RELEASE/spring-test-5.1.0.RELEASE.jar]
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedTestSourcesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-test-sources/test-annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = false
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 11
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (f) target = 11
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Source directories: [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/java]
+[[1;36mDEBUG[m] Classpath: [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+ /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+ /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+ /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+ /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar
+ /home/merbel/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+ /home/merbel/.m2/repository/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar
+ /home/merbel/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar
+ /home/merbel/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+ /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar
+ /home/merbel/.m2/repository/org/springframework/spring-test/5.1.0.RELEASE/spring-test-5.1.0.RELEASE.jar]
+[[1;36mDEBUG[m] Output directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(testCompile)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) classpathElements = [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes, /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes, /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar, /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar, /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar, /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar, /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar, /home/merbel/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar, /home/merbel/.m2/repository/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar, /home/merbel/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar, /home/merbel/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar, /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar, /home/merbel/.m2/repository/org/springframework/spring-test/5.1.0.RELEASE/spring-test-5.1.0.RELEASE.jar]
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedTestSourcesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/generated-test-sources/test-annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: testCompile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = false
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 11
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (f) target = 11
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m]   (f) mavenSession = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Source directories: [/home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/java]
+[[1;36mDEBUG[m] Classpath: [/home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+ /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+ /home/merbel/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-jdbc/5.1.0.RELEASE/spring-jdbc-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/org/springframework/spring-tx/5.1.0.RELEASE/spring-tx-5.1.0.RELEASE.jar
+ /home/merbel/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+ /home/merbel/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+ /home/merbel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+ /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar
+ /home/merbel/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar
+ /home/merbel/.m2/repository/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar
+ /home/merbel/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar
+ /home/merbel/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar
+ /home/merbel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar
+ /home/merbel/.m2/repository/org/springframework/spring-test/5.1.0.RELEASE/spring-test-5.1.0.RELEASE.jar]
+[[1;36mDEBUG[m] Output directory: /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=279339, ConflictMarker.markTime=71270, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=185643, ConflictIdSorter.topsortTime=25730, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=787270, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=37811545, DefaultDependencyCollector.transformTime=1366720}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[[1;36mDEBUG[m]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[[1;36mDEBUG[m]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[[1;36mDEBUG[m]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[[1;36mDEBUG[m]       org.apache.commons:commons-lang3:jar:3.1:compile
+[[1;36mDEBUG[m]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-model:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]          junit:junit:jar:3.8.1:test
+[[1;36mDEBUG[m]    org.apache.maven:maven-core:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[[1;36mDEBUG[m]       classworlds:classworlds:jar:1.1:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[[1;36mDEBUG[m]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-lang3:jar:3.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[[1;36mDEBUG[m]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[[1;36mDEBUG[m]   (s) basedir = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (s) childDelegation = false
+[[1;36mDEBUG[m]   (s) classesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (s) disableXmlReport = false
+[[1;36mDEBUG[m]   (s) enableAssertions = true
+[[1;36mDEBUG[m]   (s) forkMode = once
+[[1;36mDEBUG[m]   (s) junitArtifactName = junit:junit
+[[1;36mDEBUG[m]   (s) localRepository =       id: local
+      url: file:///home/merbel/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[[1;36mDEBUG[m]   (f) parallelMavenExecution = false
+[[1;36mDEBUG[m]   (s) perCoreThreadCount = true
+[[1;36mDEBUG[m]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[[1;36mDEBUG[m]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[[1;36mDEBUG[m]   (s) printSummary = true
+[[1;36mDEBUG[m]   (s) projectArtifactMap = {org.springframework:spring-context=org.springframework:spring-context:jar:5.1.0.RELEASE:compile, org.springframework:spring-aop=org.springframework:spring-aop:jar:5.1.0.RELEASE:compile, org.springframework:spring-beans=org.springframework:spring-beans:jar:5.1.0.RELEASE:compile, org.springframework:spring-core=org.springframework:spring-core:jar:5.1.0.RELEASE:compile, org.springframework:spring-jcl=org.springframework:spring-jcl:jar:5.1.0.RELEASE:compile, org.springframework:spring-expression=org.springframework:spring-expression:jar:5.1.0.RELEASE:compile, org.springframework:spring-jdbc=org.springframework:spring-jdbc:jar:5.1.0.RELEASE:compile, org.springframework:spring-tx=org.springframework:spring-tx:jar:5.1.0.RELEASE:compile, javax.annotation:javax.annotation-api=javax.annotation:javax.annotation-api:jar:1.3.2:compile, ch.qos.logback:logback-classic=ch.qos.logback:logback-classic:jar:1.2.3:compile, ch.qos.logback:logback-core=ch.qos.logback:logback-core:jar:1.2.3:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.25:compile, org.junit.jupiter:junit-jupiter-engine=org.junit.jupiter:junit-jupiter-engine:jar:5.3.2:test, org.apiguardian:apiguardian-api=org.apiguardian:apiguardian-api:jar:1.0.0:test, org.junit.platform:junit-platform-engine=org.junit.platform:junit-platform-engine:jar:1.3.2:test, org.junit.platform:junit-platform-commons=org.junit.platform:junit-platform-commons:jar:1.3.2:test, org.opentest4j:opentest4j=org.opentest4j:opentest4j:jar:1.1.1:test, org.junit.jupiter:junit-jupiter-api=org.junit.jupiter:junit-jupiter-api:jar:5.3.2:test, org.springframework:spring-test=org.springframework:spring-test:jar:5.1.0.RELEASE:test}
+[[1;36mDEBUG[m]   (s) redirectTestOutputToFile = false
+[[1;36mDEBUG[m]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[[1;36mDEBUG[m]   (s) reportFormat = brief
+[[1;36mDEBUG[m]   (s) reportsDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/surefire-reports
+[[1;36mDEBUG[m]   (s) runOrder = filesystem
+[[1;36mDEBUG[m]   (s) skip = false
+[[1;36mDEBUG[m]   (s) skipTests = false
+[[1;36mDEBUG[m]   (s) testClassesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/test-classes
+[[1;36mDEBUG[m]   (s) testFailureIgnore = false
+[[1;36mDEBUG[m]   (s) testNGArtifactName = org.testng:testng
+[[1;36mDEBUG[m]   (s) testSourceDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/src/test/java
+[[1;36mDEBUG[m]   (s) trimStackTrace = true
+[[1;36mDEBUG[m]   (s) useFile = true
+[[1;36mDEBUG[m]   (s) useManifestOnlyJar = true
+[[1;36mDEBUG[m]   (s) useSystemClassLoader = true
+[[1;36mDEBUG[m]   (s) useUnlimitedThreads = false
+[[1;36mDEBUG[m]   (s) workingDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2
+[[1;36mDEBUG[m]   (s) project = MavenProject: io.github.javafaktura:s02e08_2:1.0-SNAPSHOT @ /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml
+[[1;36mDEBUG[m]   (s) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m] -- end configuration --
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=149563, ConflictMarker.markTime=114535, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=190524, ConflictIdSorter.topsortTime=71634, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1178447, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=21997154, DefaultDependencyCollector.transformTime=1737975}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]          junit:junit:jar:3.8.1:compile
+[[1;36mDEBUG[m]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-archiver:jar:2.5:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-core:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[[1;36mDEBUG[m]          commons-cli:commons-cli:jar:1.0:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[[1;36mDEBUG[m]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[[1;36mDEBUG[m]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[[1;36mDEBUG[m]    commons-lang:commons-lang:jar:2.1:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.apache.maven:maven-archiver:jar:2.5
+[[1;36mDEBUG[m]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[[1;36mDEBUG[m]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[[1;36mDEBUG[m]   Included: commons-cli:commons-cli:jar:1.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[[1;36mDEBUG[m]   Included: commons-lang:commons-lang:jar:2.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[[1;36mDEBUG[m]   (f) classesDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes
+[[1;36mDEBUG[m]   (f) defaultManifestFile = /home/merbel/Sources/s02e08/noboot/s02e08_2/target/classes/META-INF/MANIFEST.MF
+[[1;36mDEBUG[m]   (f) finalName = s02e08_2-1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) forceCreation = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/merbel/Sources/s02e08/noboot/s02e08_2/target
+[[1;36mDEBUG[m]   (f) project = MavenProject: io.github.javafaktura:s02e08_2:1.0-SNAPSHOT @ /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@1bf39d06
+[[1;36mDEBUG[m]   (f) skipIfEmpty = false
+[[1;36mDEBUG[m]   (f) useDefaultManifestFile = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] isUp2date: false (Destination /home/merbel/Sources/s02e08/noboot/s02e08_2/target/s02e08_2-1.0-SNAPSHOT.jar not found.)
+[[1;34mINFO[m] Building jar: /home/merbel/Sources/s02e08/noboot/s02e08_2/target/s02e08_2-1.0-SNAPSHOT.jar
+[[1;36mDEBUG[m] adding directory META-INF/
+[[1;36mDEBUG[m] adding entry META-INF/MANIFEST.MF
+[[1;36mDEBUG[m] adding directory io/
+[[1;36mDEBUG[m] adding directory io/github/
+[[1;36mDEBUG[m] adding directory io/github/javafaktura/
+[[1;36mDEBUG[m] adding entry io/github/javafaktura/App.class
+[[1;36mDEBUG[m] adding entry beans.xml
+[[1;36mDEBUG[m] adding directory META-INF/maven/
+[[1;36mDEBUG[m] adding directory META-INF/maven/io.github.javafaktura/
+[[1;36mDEBUG[m] adding directory META-INF/maven/io.github.javafaktura/s02e08_2/
+[[1;36mDEBUG[m] adding entry META-INF/maven/io.github.javafaktura/s02e08_2/pom.xml
+[[1;36mDEBUG[m] adding entry META-INF/maven/io.github.javafaktura/s02e08_2/pom.properties
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36ms02e08_2[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats: {ConflictMarker.analyzeTime=78391, ConflictMarker.markTime=77738, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=32477, ConflictIdSorter.topsortTime=25396, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=524721, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=14795861, DefaultDependencyCollector.transformTime=764381}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[[1;36mDEBUG[m]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-project:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[[1;36mDEBUG[m]          junit:junit:jar:3.8.1:compile
+[[1;36mDEBUG[m]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-model:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[[1;36mDEBUG[m]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[[1;36mDEBUG[m]   Included: junit:junit:jar:3.8.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[[1;36mDEBUG[m] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[[1;36mDEBUG[m] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[[1;36mDEBUG[m]   (f) artifact = io.github.javafaktura:s02e08_2:jar:1.0-SNAPSHOT
+[[1;36mDEBUG[m]   (f) attachedArtifacts = []
+[[1;36mDEBUG[m]   (f) createChecksum = false
+[[1;36mDEBUG[m]   (f) localRepository =       id: local
+      url: file:///home/merbel/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[[1;36mDEBUG[m]   (f) packaging = jar
+[[1;36mDEBUG[m]   (f) pomFile = /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml
+[[1;36mDEBUG[m]   (s) skip = false
+[[1;36mDEBUG[m]   (f) updateReleaseInfo = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;34mINFO[m] Installing /home/merbel/Sources/s02e08/noboot/s02e08_2/target/s02e08_2-1.0-SNAPSHOT.jar to /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/1.0-SNAPSHOT/s02e08_2-1.0-SNAPSHOT.jar
+[[1;36mDEBUG[m] Writing tracking file /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/1.0-SNAPSHOT/_remote.repositories
+[[1;34mINFO[m] Installing /home/merbel/Sources/s02e08/noboot/s02e08_2/pom.xml to /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/1.0-SNAPSHOT/s02e08_2-1.0-SNAPSHOT.pom
+[[1;36mDEBUG[m] Writing tracking file /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/1.0-SNAPSHOT/_remote.repositories
+[[1;36mDEBUG[m] Installing io.github.javafaktura:s02e08_2:1.0-SNAPSHOT/maven-metadata.xml to /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/1.0-SNAPSHOT/maven-metadata-local.xml
+[[1;36mDEBUG[m] Installing io.github.javafaktura:s02e08_2/maven-metadata.xml to /home/merbel/.m2/repository/io/github/javafaktura/s02e08_2/maven-metadata-local.xml
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.777 s
+[[1;34mINFO[m] Finished at: 2020-01-25T06:56:05+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
