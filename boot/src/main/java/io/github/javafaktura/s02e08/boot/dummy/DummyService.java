@@ -8,7 +8,7 @@ public class DummyService implements Dummable {
 
     @SneakyThrows
     public void iWillDoThisAfterTheLastExam() {
-        Thread.sleep(5000);
+        Thread.sleep(1000);
     }
 
 }

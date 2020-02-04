@@ -55,7 +55,6 @@ public class MongoConnector {
         }
         MongoCollection<Document> jokes = getJokesCollection();
         return findJoke(joke, jokes);
-
     }
 
     private Joke findJoke(Joke joke, MongoCollection<Document> jokes) {

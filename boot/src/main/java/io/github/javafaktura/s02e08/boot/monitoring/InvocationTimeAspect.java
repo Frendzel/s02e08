@@ -1,6 +1,5 @@
 package io.github.javafaktura.s02e08.boot.monitoring;
 
-import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
@@ -35,17 +34,21 @@ public class InvocationTimeAspect {
 
     @Around("@annotation(io.github.javafaktura.s02e08.boot.monitoring.CalculateInvocationTime)")
     public Object logTimeInvocation3(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+
         Instant start = now();
         Object proceed = proceedingJoinPoint.proceed();
+        Instant end = now();
+        log.debug("Invocation: " + between(start, end).toMillis());
+
         StringBuilder builder = new StringBuilder();
         builder.append(Arrays.toString(proceedingJoinPoint.getArgs()));
         builder.append(proceedingJoinPoint.getSignature());
         builder.append(proceed);
+
         Thread thread = currentThread();
         builder.append(thread.getName());
         log.debug(builder.toString());
-        Instant end = now();
-        log.debug("Invocation: " + between(start, end).toMillis());
+
         return proceed;
     }
 }

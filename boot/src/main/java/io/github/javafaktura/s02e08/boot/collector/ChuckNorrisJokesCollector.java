@@ -12,6 +12,7 @@ import javax.annotation.PostConstruct;
 
 @Service
 @Slf4j
+//TODO add scheduler
 public class ChuckNorrisJokesCollector {
     private final RestTemplate restTemplate = new RestTemplate();
 

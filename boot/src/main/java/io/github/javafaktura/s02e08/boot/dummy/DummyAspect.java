@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class DummyAspect {
-
     @Before("execution(void iWillDoThisAfterTheLastExam())")
     public void logException() {
     }
