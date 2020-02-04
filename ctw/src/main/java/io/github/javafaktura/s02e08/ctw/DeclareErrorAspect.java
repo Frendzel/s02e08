@@ -4,7 +4,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.DeclareError;
 import org.aspectj.lang.annotation.DeclareWarning;
 
-@Aspect
+//@Aspect
 public class DeclareErrorAspect {
 
     @DeclareError("(call (* java.sql..*.*(..)) || call (* javax.sql..*.*(..)))" +

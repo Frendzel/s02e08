@@ -1,7 +1,7 @@
 <!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
 <aspectj>
-    <weaver>
-        <include within="io.github.*" />
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="io.github.javafaktura.s02e08.ltw*" />
         <include within="org.springframework.boot..*" />
     </weaver>
 

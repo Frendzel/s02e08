@@ -17,15 +17,14 @@
 ## Advice
 ## Pointcut
 *InvocationTimeAspect*
+
+Method pattern: [Modifiers] ReturnType [ClassType] MethodName ([Arguments]) [throws ExceptionType]
 ## Joinpoint
 
-Method pattern: Following is method pattern:
-[Modifiers] ReturnType [ClassType]
-MethodName ([Arguments]) [throws ExceptionType]
-
 ## AspectJ
+*ltw*
+*ctw*
 ## ByteBuddy
-
 ## Annotations Processors
 
 ### Autovalue
@@ -35,9 +34,6 @@ MethodName ([Arguments]) [throws ExceptionType]
 *No runtime impact
 *no dependency (@AutoValue has source retention)
 *performs comparably to hand-written code
-*(1-morphic, so accessors are still inlinable)
-*Virtually no impact on API
-*Exception: if you already committed to a public constructor, you can't switch to this
 *No magical modifying of existing classes
 *Still just a single javac pass to compile!
 
